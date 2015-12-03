@@ -1,0 +1,25 @@
+{
+  "name": "tf-sqlite",
+  "version": "0.1.0",
+  "description": "Sqlite3 support for TinyFugue (via shell calls)",
+  "main": "main.tf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/huntwj/tf-sqlite.git"
+  },
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "tf",
+    "TinyFugue"
+  ],
+  "author": "Wil Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huntwj/tf-sqlite/issues"
+  },
+  "homepage": "https://github.com/huntwj/tf-sqlite#readme"
+}
