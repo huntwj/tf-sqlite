@@ -13,7 +13,10 @@
     /return _r
 
 /def sqlite_escapeSql = \
-    /let _val=$[replace("'", "''", {*})]%;\
-    /test _val := replace('"', "\\\""', _val)%;\
+    /let _val=%;\
+    /test _val := "%{*}"%;\
+    /test _val := replace("'", "''", _val)%;\
+    /test _val := replace('"', "\\\""', "{_val}")%;\
+    /test _val := replace("\\n", "' || char(10) ||  '", _val)%;\
     /result _val
 
